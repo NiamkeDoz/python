@@ -8,17 +8,40 @@ def displayBoard():
     print("| "+ board[0] + " | " + board[1] + " | " + board[2] + " | ")
     print("| "+ board[3] + " | " + board[4] + " | " + board[5] + " | ")
     print("| "+ board[6] + " | " + board[7] + " | " + board[8] + " | ")
+
+def placeMove(playerMove):
+    if(board[playerMove] != "."):
+        print("This location is not valid!")
+    elif(board[placeMove] == "."):
+        print("Move is placed")
     
 displaygrid = ["1","2","3",
             "4","5","6",
             "7","8","9"]
 
-board = []
+board = [".",".",".",".",".",".",".",".","."]
 
-for i in range(9):
-    board.append(".")
 
-displayBoard()
+
+print("Tic Tac Toe")
+print("Pick a number a to place your piece.")
+displayNumberGrid()
+
+player1 = (input("Player One make your move!\n"))
+player1 = int(player1)
+print(player1)
+#placeMove(player1)
+
+if (board[player1] != "."):
+    print("This location is not valid!")
+elif(board[player1] == "."):
+        board[player1] = "X"
+    
+
+
+
+
+#displayBoard()
 
     
 #displayNumberGrid()
