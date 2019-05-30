@@ -1,7 +1,7 @@
 import datetime
 
 print('What is your name?')
-myName = input()
+myName = raw_input()
 print('Nice to meet you ' + myName + '!')
 print('What year were you born?')
 birthYear = input()
@@ -11,6 +11,5 @@ birthYear = input()
 # birthDay = input()
 current = datetime.datetime.now()
 currentAge = current.year - int(birthYear)
-print()
 print(myName + ', you are ' + str(currentAge) + ' years old!')
 
