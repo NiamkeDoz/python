@@ -34,12 +34,14 @@ precip = soup.find('span', attrs={'class': 'precip-val'})
 #Clean Up data
 curr_forecast = forecast.text
 curr_forecast = curr_forecast[0:2] + "F"
+
 forecast_phrase = forecast_phrase.text
 forecast_today = forecast_today.text + ": "
 forecast_today_cond = forecast_today_cond.text + "\n"
 forecast_today_hilo = forecast_today_hilo.text + ": "
 forecast_today_temp = forecast_today_temp.text
 forecast_today_temp = forecast_today_temp[0:2] + 'F'
+
 precip = precip.text
 timestamp = timestamp.text + "\n"
 location = location.text
