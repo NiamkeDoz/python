@@ -1,2 +1,2 @@
-# python
-Learning to Program in Python
+# Python
+Python Scripts
