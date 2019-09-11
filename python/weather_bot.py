@@ -42,6 +42,7 @@ forecast_today_hilo = forecast_today_hilo.text + ": "
 forecast_today_temp = forecast_today_temp.text
 forecast_today_temp = forecast_today_temp[0:2] + 'F'
 
+
 precip = precip.text
 timestamp = timestamp.text + "\n"
 location = location.text
