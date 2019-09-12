@@ -15,3 +15,5 @@ print('2. ' + numbers[3:])
 print('3. ' + numbers[:3])
 print('4. ' + numbers[1:2])
 print('5. ' + numbers[0:10:2])
+
+print(numbers[2])
