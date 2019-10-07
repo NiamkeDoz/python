@@ -1,6 +1,8 @@
 import smtplib
 import requests
 import time
+import os
+import subprocess
 from bs4 import BeautifulSoup
 
 #List of cities
@@ -31,7 +33,7 @@ for x in range(NumOfCities):
 user_input = input()
 user_input = int(user_input)
 city = cities[user_input]
-
+os.system('clear') 
 #Request data from web 
 page = requests.get(city_url[city])
 #Parse html data
