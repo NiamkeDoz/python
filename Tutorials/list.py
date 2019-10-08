@@ -22,3 +22,12 @@ print(another_empty_list)
 
 
 # Part 2
+
+#Get an Item using offset
+print(animals[0])
+print(animals[1])
+print(animals[2])
+
+#assign value to a variable
+new_animal = animals[1]
+print(new_animal)
