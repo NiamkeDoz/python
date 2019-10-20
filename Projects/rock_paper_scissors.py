@@ -13,6 +13,7 @@ while True:
     if user_input > 3 or user_input < 1:
         print("Please Enter a Valid Option!")
     break
+os.system('clear')
 if user_input == 1:
     user_choice = 'Rock'
     print("User Choice: " + user_choice)
