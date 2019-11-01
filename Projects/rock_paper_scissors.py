@@ -10,6 +10,7 @@ cpu_choice = 'null'
 while True:
     print("1. Rock\n2. Paper\n3. Scissors")
     user_input = input()
+    user_input = int(user_input)
     if user_input > 3 or user_input < 1:
         print("Please Enter a Valid Option!")
     break
