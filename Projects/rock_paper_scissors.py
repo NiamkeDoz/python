@@ -6,7 +6,6 @@ user_input = 'null'
 user_choice = 'null'
 cpu_choice = 'null'
 
-
 while True:
     print("1. Rock\n2. Paper\n3. Scissors")
     user_input = input()
@@ -53,7 +52,4 @@ elif cpu_choice == "Rock" and user_choice == "Scissors":
 elif cpu_choice == "Scissors" and user_choice == "Paper":
     print("Scissors beats Paper!\nCPU wins!")
 elif cpu_choice == "Scissors" and user_choice == "Rock":
-    print("Rock beats Scissors!")
-
-
-
+    print("Rock beats Scissors!\nUser wins!")
